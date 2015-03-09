@@ -1,8 +1,7 @@
 package stubTheory;
 
-import org.junit.Assert;
-import org.junit.Test;
-
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 
 class DayOrDark{
@@ -15,12 +14,27 @@ class DayOrDark{
 		
 	}
 }
+
+class Together{
+	
+	public static boolean getTogetherness(){
+		/*
+		 * Think and write is she really want to walk with u.
+		 */
+		return true;
+	}
+}
 public class Demo_Stub {
 	
 	
 	@Test
 	public void testDayOrDark(){
-		Assert.assertEquals("night",DayOrDark.getDayDarkInfo());
+		Assert.assertEquals("night" , DayOrDark.getDayDarkInfo());
+	}
+	
+	@Test
+	public void testTogetherness(){
+		Assert.assertEquals(true , Together.getTogetherness());
 	}
 	
 }
