@@ -1,4 +1,5 @@
-package stubTheory;
+package com.nostalgiaguy.stubs;
+
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -21,7 +22,7 @@ class Together{
 		/*
 		 * Think and write is she really want to walk with u.
 		 */
-		return true;
+		return false;//no she don't want....she called him
 	}
 }
 public class Demo_Stub {
@@ -34,7 +35,8 @@ public class Demo_Stub {
 	
 	@Test
 	public void testTogetherness(){
-		Assert.assertEquals(true , Together.getTogetherness());
+		Assert.assertFalse( Together.getTogetherness());
+		
 	}
 	
 }
