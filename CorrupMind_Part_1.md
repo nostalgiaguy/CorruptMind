@@ -8,3 +8,5 @@ so every mental illness was treated as if it were a psychosis
 narrow-minded instrumentalism include: déformation professionnelle,the tendency for regulators to look at things from the point of view of the profession they are regulating.
 
 psychosis="Psychosis refers to an abnormal condition of the mind described as involving a "loss of contact with reality".
+
+deathmatch=http://www.javacodegeeks.com/2015/08/4-out-of-5-java-developers-failed-to-solve-this-question.html
