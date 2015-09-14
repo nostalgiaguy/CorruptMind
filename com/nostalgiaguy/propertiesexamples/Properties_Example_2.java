@@ -16,7 +16,7 @@ public class Properties_Example_2 {
 		try (OutputStream out = new FileOutputStream("example_2.properties")) {
 			Properties properties = new Properties();
 			properties.setProperty("name", "romy");
-			properties.setProperty("name", "romy");
+			properties.setProperty("name", "romy1");
 			properties.setProperty("", "NULL-KEY");
 			properties.setProperty("NULL-VALUE", "");
 			properties.store(out, "This is a sample for java properties");
